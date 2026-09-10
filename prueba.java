@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 import java.util.Stack;
 
 public class prueba {
@@ -12,3 +12,4 @@ public class prueba {
         m.EliminarRegitro(pila, sc, m);
     }
 }
+*/
