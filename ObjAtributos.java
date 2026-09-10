@@ -2,16 +2,18 @@ public class ObjAtributos {
 
     int tipoVehiculo, precio, idV;
     String color;
+    int estado;
 
-    public ObjAtributos(){
-        
+    public ObjAtributos() {
+
     }
 
-    public ObjAtributos(int tipoVehiculo, int precio, int idV, String color) {
+    public ObjAtributos(int tipoVehiculo, int precio, int idV, String color, int estado) {
         this.tipoVehiculo = tipoVehiculo;
         this.precio = precio;
         this.idV = idV;
-        this.color = color;        
+        this.color = color;
+        this.estado = estado;
     }
 
     public int getTipoVehiculo() {
@@ -28,7 +30,7 @@ public class ObjAtributos {
 
     public void setPrecio(int precio) {
         this.precio = precio;
-    }    
+    }
 
     public String getColor() {
         return color;
@@ -46,5 +48,12 @@ public class ObjAtributos {
         this.idV = idV;
     }
 
-    
+    public int getEstado() {
+        return estado;
+    }
+
+    public void setEstado(int estado) {
+        this.estado = estado;
+    }
+
 }
